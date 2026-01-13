@@ -1835,7 +1835,7 @@ output."
            (value (cdr option))
            (values
             (cond ((not (memq name org-pandoc-valid-options))
-                   (error "Org-Pandoc: Improper Option Name! %s" name))
+                   (error "Org-pandoc does not recognise the pandoc option: '%s'" name))
                   ((equal "t" value) t)
                   ((equal "nil" value) nil)
                   ((listp value) value)
