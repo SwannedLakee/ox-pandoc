@@ -49,7 +49,8 @@
 (defconst org-pandoc-valid-options
   '( abbreviations ascii atx-headers base-header-level bash-completion
      biblatex bibliography citation-abbreviations citeproc columns csl css
-     data-dir default-image-extension defaults dpi dump-args email-obfuscation eol
+     data-dir default-image-extension defaults dpi dump-args
+		 email-obfuscation embed-resources eol
      epub-chapter-level epub-cover-image epub-embed-font epub-metadata
      epub-subdirectory extract-media fail-if-warnings file-scope filter
      highlight-style html-q-tags id-prefix ignore-args include-after-body
