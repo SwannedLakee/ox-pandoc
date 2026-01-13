@@ -61,7 +61,7 @@
      pdf-engine-opt pdf-engine preserve-tabs print-default-data-file
      print-default-template quiet reference-doc reference-links
      reference-location resource-path section-divs self-contained
-     shift-heading-level-by slide-level standalone strip-comments
+     shift-heading-level-by slide-level split-level standalone strip-comments
      syntax-definition tab-stop  table-of-contents template title-prefix
      toc top-level-division toc-depth trace track-changes variable
      verbose version webtex wrap))
